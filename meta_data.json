@@ -1,0 +1,10 @@
+{
+ "cosmos":[
+         {"key":"cosmos key","url":"url",
+		 "database_name":"db name", "container_name":"container name"}
+        ],
+ "blob":[
+         {"key":"blob key","account":"account name","container_name":"container_name"}
+        ],
+ "query":[{"query":"SELECT * FROM c"}]		
+}
