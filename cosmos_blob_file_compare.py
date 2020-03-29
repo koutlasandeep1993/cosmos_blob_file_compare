@@ -9,7 +9,7 @@ with open ( "C:\luna\json\meta_data.json") as data_file:
   data=json.load(data_file)
 data_file.close()
 
-####cosmos DB config####
+####cosmos DB config#####
 cosmos_key = data["cosmos"][0]["key"]
 cosmos_url = data["cosmos"][0]["url"]
 database_name=data["cosmos"][0]["database_name"]
